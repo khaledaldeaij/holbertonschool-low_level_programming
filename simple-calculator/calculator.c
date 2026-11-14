@@ -21,6 +21,10 @@ int main(void)
         if (choice < 0 || choice > 4)
             printf("Invalid choice!\n");
 
+if (choice < 0 || choice > 4)
+    printf("Invalid choice!");
+
+
     } while (choice != 0);
 
     printf("Bye!\n");
