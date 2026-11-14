@@ -4,6 +4,7 @@
 int main(void)
 {
     int choice;
+    int a, b, result;
 
     do
     {
@@ -18,12 +19,23 @@ int main(void)
         if (scanf("%d", &choice) != 1)
             return (1);
 
-        if (choice < 0 || choice > 4)
-            printf("Invalid choice!\n");
+        if (choice == 1)
+        {
+            printf("A: ");
+            if (scanf("%d", &a) != 1)
+                return (1);
 
-if (choice < 0 || choice > 4)
-    printf("Invalid choice!");
+            printf("B: ");
+            if (scanf("%d", &b) != 1)
+                return (1);
 
+            result = a + b;
+            printf("Result: %d\n", result);
+        }
+        else if (choice < 0 || choice > 4)
+        {
+            printf("Invalid choice\n");
+        }
 
     } while (choice != 0);
 
@@ -31,3 +43,4 @@ if (choice < 0 || choice > 4)
 
     return (0);
 }
+
