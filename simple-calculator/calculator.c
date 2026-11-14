@@ -48,6 +48,22 @@ if (choice == 2)
             printf("Result: %d\n", result);
         }
 
+
+if (choice == 3)
+{
+    printf("A: ");
+    if (scanf("%d", &a) != 1)
+        return (1);
+
+    printf("B: ");
+    if (scanf("%d", &b) != 1)
+        return (1);
+
+    result = a * b;
+    printf("Result: %d\n", result);
+}
+
+
         else if (choice < 0 || choice > 4)
         {
             printf("Invalid choice\n");
