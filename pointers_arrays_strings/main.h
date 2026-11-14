@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
 void puts_half(char *str);
 int _atoi(char *s);
