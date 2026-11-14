@@ -64,6 +64,29 @@ if (choice == 3)
 }
 
 
+
+if (choice == 4)
+{
+    printf("A: ");
+    if (scanf("%d", &a) != 1)
+        return (1);
+
+    printf("B: ");
+    if (scanf("%d", &b) != 1)
+        return (1);
+
+    if (b == 0)
+    {
+        printf("Cannot divide by zero\n");
+    }
+    else
+    {
+        result = a / b;
+        printf("Result: %d\n", result);
+    }
+}
+
+
         else if (choice < 0 || choice > 4)
         {
             printf("Invalid choice\n");
