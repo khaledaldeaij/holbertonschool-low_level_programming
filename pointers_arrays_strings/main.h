@@ -2,6 +2,7 @@
 #define MAIN_H
 char *_strcpy(char *dest, char *src);
 void puts_half(char *str);
+int _atoi(char *s);
 void print_rev(char *s);
 void rev_string(char *s);
 void reset_to_98(int *n);
