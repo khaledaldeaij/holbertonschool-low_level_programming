@@ -15,4 +15,8 @@ a variable number of arguments using the stdarg.h library.
 | --- | --- |
 | 0-sum_them_all.c | Returns the sum of all parameters. |
 | variadic_functions.h | Contains function prototypes. |
-| README.md | Project documentation. |
+| 1-print_numbers.c | Prints a variable number of integers. |
+| 2-print_strings.c | Prints a variable number of strings. |
+| 3-print_all.c | Prints arguments of different data types. |
+
+
